@@ -1,0 +1,17 @@
+.selfshow{
+	margin: 20px auto;
+	width: 750px;
+}
+.selfshow h1{
+	font-size: 34px;
+	display: block;
+	margin: 60px 0;
+	text-align: center;
+}
+.selfshow p.p1{
+	margin-bottom: 20px;
+	line-height: 26px;
+}
+.selfshow p.p2{
+	line-height: 36px;
+}

@@ -1,0 +1,62 @@
+/*底部导航*/
+.foot{
+	background: #1f1f1f;
+	min-width: 1200px;
+}
+.wrapper{
+	padding: 30px 0;
+}
+.wrap_box{
+	float: left;
+	width: 760px;
+	height: 150px;
+}
+.wrap{
+	float: left;
+	width: 190px;
+	height: 150px;
+}
+.wrap h4{
+	margin-bottom: 10px; 
+	color: white;
+}
+.wrap a{
+	display: block;
+	line-height: 24px;
+	font-size:12px;
+	color: #717171;
+}
+.wrap a:hover{
+	text-decoration: underline;
+}
+.erweima{
+	background: url(../images/erweima.png) no-repeat top center;
+}
+.erweima p{
+	margin-top: 100px;
+	color: #4f4f4f;
+	font-size: 14px;
+	text-align: center;
+}
+.wrap_city{
+	float: left;
+	margin-bottom: 15px;
+	width: 1200px;
+	height: 60px;
+	font-size: 12px;
+	color: #717171;
+}
+.wrap_city a{
+	cursor: pointer;
+	padding: 5px;
+	line-height: 25px;
+}
+.wrap_city a:hover{
+	color: #22ac38;
+}
+.address{
+	float: left;
+	margin: 10px 0 20px 0;
+	color: #717171;
+	font-size: 12px;
+}

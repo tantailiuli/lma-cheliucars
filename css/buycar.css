@@ -1,0 +1,324 @@
+/*主体内容*/
+.main{
+	margin: 20px auto;  
+	width: 1280px;
+}
+/*主体左边*/
+.main_left{
+	float: left;
+	width: 242px;
+}
+.main_left_top{
+	float: left;
+	margin-bottom: 20px;
+	padding: 10px 16px;
+	width: 210px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	background-color: #f5f5f5;
+	color: #22ac38;
+	border: 1px solid #ddd;
+}
+.brand{
+	width: 210px;
+}
+.cartype{
+	padding: 30px 0;
+	width: 210px;
+}
+.cartype h3{
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 100;
+}
+.cartype a{
+	float: left;
+	margin: 5px 10px;
+	width: 50px;
+	height: 40px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+.cartype a:hover{
+	color: #22ac38;
+}
+.cartype a img{
+	width: 50px;
+	height: 25px;
+}
+.select_box_box{
+	float: left;
+	padding: 16px 18px 16px 14px;
+	width: 210px;
+	height: 1000px;
+	border: 1px solid #ddd;
+}
+.select_box_box img{
+	width: 212px;
+	height: 200px;
+}
+.select_box{
+	float: left;
+	width: 210px;
+	height: 80px;
+}
+.select_box h3{
+	font-size: 14px;
+	color: #333;
+	font-weight: 100;
+}
+.select_box .select{
+	position:relative;
+	margin: 12px 0 22px;
+	padding: 0 10px;
+	width: 188px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #aaa;
+	background: url(../images/selecticon.png) no-repeat 184px center;
+	border: 1px solid #e5e5e5;
+}
+.select_box .select ul{
+	position: absolute;
+	left: -1px;
+	top:24px;
+	width: 208px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	display: none;
+	z-index: 1;
+}
+.select_box .select ul li{
+	padding: 0 10px;
+	line-height: 26px;
+}
+.select_box .select ul li:hover{
+	background-color: #22ac38;
+	color: #fff;
+}
+/*主体右边*/
+.main_right{
+	float: right;
+	width: 1038px;	
+}
+/*主体右上*/
+.main_right_up{
+	float: right; 
+	margin: 0 2px 0 18px;
+	width: 1015px;
+	height: 80px;
+	border:1px solid #e6e6e6;
+	background: #fff;
+}
+.main_right_up_fixed{
+	position: fixed;
+	top:0;
+	margin-left: 19px;
+	width: 1015px;
+	height: 80px;
+	border:1px solid #e6e6e6;
+	background: #fff;
+}
+.main_right_up_top{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.main_right_up_foot{
+	float: left;
+	padding: 0 30px;
+	height: 40px;
+	line-height: 40px;
+}
+.main_right_up_foot .input_box{
+	padding: 10px 0;
+	width: 100px;
+	height: 20px;
+	float: left;
+}
+.main_right_up_foot input{
+	float: left;
+	margin: 2px 0 0 0;
+	padding: 0;
+	width: 12px;
+	height: 12px;
+}
+.main_right_up_foot span{
+	float: left;
+	margin: 2px 0 0 5px;
+	font-size: 12px;
+	width: 50px;
+	line-height: 12px;
+}
+.top1{
+	float: left;
+	width: 112px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+.top1 span.span1{
+	color: #ff571a;
+	line-height: 40px;
+}
+.top2{
+	float: left;
+	width: 112px;
+	height: 39px;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	background: #F5F5F5;
+	color: #666;
+}
+.top2 span{
+	line-height: 40px;
+}
+.top3{
+	float: left;
+	width: 711px;
+	height: 39px;
+	border-bottom: 1px solid #e6e6e6;
+	background: #f5f5f5;
+}
+.top3in{
+	float: right;
+	margin:10px 0;
+	width: 284px;
+	height: 20px;
+	font-size:12px;
+	text-align: center;
+	line-height: 20px;
+	border-left:1px solid #e6e6e6; 
+}
+.top3in span{
+	margin: 0 8px;
+}
+.top3in a{
+	margin: 0 8px;
+	color: #666;
+}
+.top3in a.a1{
+	color: #ff571a;
+}
+.top3in a:hover{
+	color: #ff571a;
+}
+.top4,.top5{
+	float: left;
+	width: 38px;
+	height: 38px;
+	border-bottom:1px solid #e6e6e6;
+	border-left:1px solid #e6e6e6;  
+}
+.top4{
+	background: url(../images/small1.png) no-repeat center;
+}
+.top5{
+	background: url(../images/small2.png) no-repeat center;
+	background-color: #f5f5f5;
+}
+/*主体右中*/
+.main_right_mid{
+	float: left;
+	width: 1038px;
+}
+.main_right_mid .carbox{
+	margin: 20px 0 0 19px;
+	float: left;
+	width: 240px;
+	height: 320px;
+}
+.main_right_mid .carbox .carbox_a{
+	float: left;
+	width: 240px;
+	height: 160px;
+}
+.main_right_mid .carbox .carbox_a img{
+	width: 240px;
+	height: 160px;
+}
+.main_right_mid .carbox .carbox_div{
+	float: left;
+	width: 208px;
+	padding: 10px 15px 0 15px;
+	border:1px solid #e6e6e6;
+}
+.main_right_mid .carbox .carbox_div .salehref{
+	height: 42px;
+}
+.main_right_mid .carbox .carbox_div .salehref a{
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+}
+.main_right_mid .carbox .carbox_div .salehref a:hover{
+	color: #ff571a;
+}
+.main_right_mid .carbox .carbox_div p{
+	padding: 5px 0;
+	font-family: "Tahoma";
+	font-weight: bold;
+	color: #ff571a;
+}
+.main_right_mid .carbox .carbox_div span{
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+}
+.main_right_mid .carbox .carbox_div .carsame{
+	float: left;
+	margin-top: 25px;
+	padding: 10px 0;
+	width: 210px;
+	height: 16px;
+	border-top: 1px solid #e6e6e6;
+}
+.main_right_mid .carbox .carbox_div .carsame div{
+	padding: 2px 4px;
+	width: 50px;
+	background-color: #22ac38;
+	color: white;
+	font-size: 12px;
+}
+/*主体右下*/
+.main_right_down_box{
+	float: left;
+	width: 1038px;
+	height: 235px;
+}
+.main_right_down {
+	width: 530px;
+	height: 40px;
+	margin: 50px auto;
+}
+.main_right_down a,.main_right_down span{
+	float: left;
+	width: 38px;
+	height: 38px;
+	margin-right: 13px;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	font-family: Arial;
+	color: #333;
+	border: 1px solid #d9d9d9;
+}
+.main_right_down a.a1{
+	background: #ff571a;
+	border: 1px solid #ff571a;
+	color: white;
+}
+.main_right_down a:hover{
+	background: #ff571a;
+	border: 1px solid #ff571a;
+	color: white;
+}
+

@@ -1,0 +1,23 @@
+.judge{
+	width: 980px;
+	margin: 50px auto 30px;
+}
+.judge h1{
+	width: 980px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+}
+.judge p{
+	margin: 10px 0;
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+}
+.judge p.p_ul{
+	color: #22ac38;
+	font-size: 16px;
+}

@@ -1,0 +1,59 @@
+.audi_box h1{
+	font-size: 20px;
+    color: #333;
+    margin: 20px auto 30px;
+    text-align: left;
+}
+.audi_box .audidiv{
+	float: left;
+	margin-bottom: 20px;
+}
+.audi_box .audidiv .letter{
+	font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    float: left;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+}
+.audi_box .audidiv .letter:hover{
+	color: #fff;
+	background-color: #22ac38;
+	border: 1px solid #22ac38;
+}
+.audi_box .audidiv .audidiv_{
+	float: left;
+	margin-left: 30px;
+	width: 1000px;
+}
+.audi_box .audidiv .audidiv_ .box{
+	width: 100%;
+	float: left;
+}
+.audi_box .audidiv .audidiv_ .box .dleft{
+    float: left;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.audi_box .audidiv .audidiv_ .box .dleft:hover{
+	color: #22ac38;
+}
+.audi_box .audidiv .audidiv_ .box .dright{
+	float: left;
+}
+.audi_box .audidiv .audidiv_ .box .dright a{
+	float: left;
+	margin-right: 14px;
+    color: #666;
+    line-height: 30px;
+    font-size: 14px;
+}
+.audi_box .audidiv .audidiv_ .box .dright a:hover{
+	color: #22ac38;
+}

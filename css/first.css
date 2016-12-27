@@ -1,0 +1,374 @@
+/*轮播图*/
+.banner{
+	position:relative;
+	height:460px;
+}
+.banner:hover i{
+	opacity:.5;
+}
+.banner a{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-size:100% 100%;
+	display: none;
+}
+.banner a.current{
+	display: block;
+}
+.banner i{
+	position:absolute;
+	top:208px;
+	width:25px;
+	height:44px;
+	z-index:1;
+	opacity:0;
+	transition:opacity .2s;
+}
+.banner i:hover{
+	opacity:1;
+}
+.banner .previous{
+	left:66px;
+	background-position:0 -37px;
+}
+.banner .next{
+	right:66px;
+	background-position:-26px -37px;
+}
+
+.bannerfixed{
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -82px;
+	width: 165px;
+	height: 290px;
+	background: no-repeat top center;
+	z-index: 1;
+}
+.bannerfixed h1{
+	float: left;
+	word-spacing: 32px;
+	margin: 0 0 0 35px;
+	padding-top: 120px;
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+}
+.bannerfixed p{
+	float: left;
+	margin-top:12px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+.bannerfixed div{
+	float: left;
+	margin:20px 0 0 30px;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #f5f5f5;
+	border: 2px solid #f5f5f5;
+	border-radius: 10px;
+}
+.bannerfixed div:hover{
+	background:rgba(255, 255, 255, 0.3);
+}
+/*页中导航*/
+.nav{
+	padding: 20px 0;
+	height:140px;
+	border-bottom:1px solid rgb(217, 217, 217);
+}
+.nav .left_box{
+	position: relative;
+	float: left;
+	border-right:1px solid #ccc;
+}
+.nav .left_box:hover i{
+	color: #22ac38;
+}
+.nav .left_box:hover .left{
+	border:2px solid #22ac38;
+	border-bottom: none;
+}
+.nav .left_box .left_none{
+	position: absolute;
+	top: 100px;
+    width: 598px;
+    height: 800px;
+    padding: 15px;
+    padding-left: 24px;
+    background: #fff;
+    display: none;
+}
+.nav .left_box:hover .left_none{
+	display: block;
+	border: 2px solid #22ac38;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.nav .left_box i{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	text-align: center;
+	width: 2px;
+	height: 2px;
+	z-index: 2;
+}
+.nav .left_box .left{
+	position: relative;
+	padding: 5px 15px;
+	width: 396px;
+	height: 90px;
+	border:2px solid #fff;
+	background: #fff;
+	z-index: 1; 
+}
+.nav .left_box .left a img{
+	width: 32px;
+	height: 28px;
+}
+.nav .left_box .left h3{
+	font-size: 16px;
+	line-height: 30px;
+}
+.nav .left_box .left a{
+	float: left;
+	padding: 0 8px;
+	width: 32px;
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.nav .left_box .left a:hover{
+	color: #22ac38;
+}
+.nav .center_box{
+	position: relative;
+	float: left;
+	border-right:1px solid #ccc;
+}
+.nav .center_box:hover i{
+	color: #22ac38;
+}
+.nav .center_box:hover .center{
+	border:2px solid #22ac38;
+	border-bottom: none;
+}
+.nav .center_box .center_none{
+	position: absolute;
+	top: 96px;
+    width: 387px;
+    height: 300px;
+    padding: 15px;
+    padding-left: 24px;
+    background: #fff;
+    display: none;
+}
+.nav .center_box:hover .center_none{
+	display: block;
+	border: 2px solid #22ac38;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.nav .center_box i{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	text-align: center;
+	width: 2px;
+	height: 2px;
+	z-index: 2;
+}
+.nav .center_box .center{
+	position: relative;
+	padding: 5px 15px;
+	width: 396px;
+	height: 86px;
+	border:2px solid #fff;
+	background: #fff;
+	z-index: 1; 
+}
+.nav .center_box .center a img{
+	width: 42px;
+	height: 28px;
+}
+.nav .center_box .center h3{
+	font-size: 16px;
+	line-height: 30px;
+}
+.nav .center_box .center a{
+	float: left;
+	margin: 0 4px;
+	width: 48px;
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.nav .center_box .center a:hover{
+	color: #22ac38;
+}
+.nav .right{
+	float: left;
+	padding: 5px 15px;
+	width: 288px;
+	height: 90px;
+}
+.nav .right h3{
+	font-size: 16px;
+	line-height:30px;
+}
+.nav .right a{
+	float: left;
+	margin: 0 4px;
+	width: 56px;
+	height: 30px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+}
+.nav .right a:hover{
+	color: #22ac38;
+}
+/*主体内容*/
+.main{
+	padding-top:90px;
+	background-color:rgb(242, 242, 242);
+}
+.main .w1200{
+	overflow:hidden;
+}
+.main h1{
+	text-align:center;
+	font-size:32px;
+	font-weight:normal;
+	color:rgb(51, 51, 51);
+}
+.main p{
+	color:rgb(153, 153, 153);
+}
+.main p, .product p{
+	margin:20px 0 42px;
+	text-align:center;
+}
+.main .container{
+	width:1220px;
+}
+.main .container a{
+	float:left;
+	margin:35px 30px 5px 10px;
+	padding-left:285px;
+	width:285px;
+	height:240px;
+	background-color:white;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+.main .container a:hover{
+	box-shadow:0 4px 8px 0 rgb(182, 182, 182);
+}
+.main .container a:hover h2{
+	color:rgb(34,172,56);
+}
+.main .container a:hover img{
+	margin-left:-10px;
+}
+.main .container a h2{
+	margin-top:34px;
+	font-weight:normal;
+	font-size:20px;
+	color:rgb(68, 68, 68);
+}
+.main .container a p{
+	margin-top:16px;
+	font-size:14px;
+}
+.main .container a img{
+	width:160px;
+	height:105px;
+	transition:margin-left .25s;
+}
+.main .product{
+	margin-top:80px;
+	padding-top:82px;
+	height:390px;
+	background-color:white;
+}
+.main .product .adv{
+	margin: 0 auto;
+	width: 1173px;
+	height: 180px;
+}
+.main .product .adv .ad{
+	float: left;
+	padding: 10px 30px;
+	width: 330px;
+	height: 160px;
+}
+.main .product .adv .ad img{
+	float: left;
+}
+.main .product .adv .ad div{
+	float: left;
+	margin-left: 20px;
+	width: 240px;
+	height: 64px;
+}
+.main .product .adv .ad div h3{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 100;
+}
+.main .product .adv .ad div p{
+	margin:8px 0;
+	font-size :14px;
+	text-align: left;
+	color: #333;
+}
+.main .product .adv .ad p{
+	float: left;
+	margin : 0;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.main .product .adv .ad div p{
+	font-size: 12px;
+}
+.main .product .adv .ad div p.p1{
+	margin-top: 12px;
+}
+.main .product .adv .ad div a{
+	float: left;
+	width: 100%;
+	margin-top:18px;
+	font-size: 14px;
+	color: #22ac38;
+}
+.main .product .adv .adBorder{
+	border-left:1px solid #e6e6e6;
+}
+.wrap_int{
+	float: left;
+	padding:10px 0;
+	border-top: 1px solid #363636;
+	border-bottom: 1px solid #363636;
+}
+.wrap_int a{
+	float: left;
+	margin-right: 25px;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left;
+	color: #717171;
+}
+.wrap_int a:hover{
+	text-decoration: underline;
+}

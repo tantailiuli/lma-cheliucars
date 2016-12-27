@@ -1,0 +1,60 @@
+.callus{
+	width: 1000px;
+	margin: 0 auto 30px;
+}
+.callus h6{
+	padding: 20px 0;
+	font-size: 12px;
+}
+.callus h6 a,.callus h6 span{
+	font-weight: 400;
+}
+.callus h6 a:hover{
+	color: #22ac38;
+}
+.callus .content{
+	overflow: hidden;
+}
+.callus .content .left{
+	float: left;
+	width: 150px;
+}
+.callus .content .left p{
+	width: 130px;
+	text-align: left;
+    padding: 5px 6px 5px 14px;
+    border-bottom: 1px solid #ccc;
+    color: #333333;
+    font-size: 12px;
+    cursor: pointer;
+}
+.callus .content .left p.p1{
+	color: #22ac38;
+}
+.callus .content .right{
+	position: relative;
+	float: right;
+	padding: 30px 20px;
+	width: 760px;
+	border-left: 1px solid #ccc;
+}
+.callus .content .right p{
+	text-indent: 2em;
+    line-height: 25px;
+    margin: 20px 0px;
+    color: #333333;
+    font-size: 12px;
+}
+.callus .content .right p.p1{
+	text-indent:0;
+	margin: 0;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	left:0;
+	top:0;
+	background-color: #ff0000;
+	color: #fff;
+}

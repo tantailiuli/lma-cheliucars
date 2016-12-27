@@ -1,0 +1,22 @@
+.problem{
+	padding: 60px 0 30px;
+	margin: 0 auto;
+	width: 980px;
+}
+.problem h1{
+	margin-bottom: 40px;
+	font-size: 26px;
+	text-align: center;
+	color: #333;
+}
+.problem p.p1,.problem p.p2{
+	font-size: 14px;
+}
+.problem p.p1{
+	margin: 10px auto;
+	color: #22ac38;
+}
+.problem p.p2{
+	margin-bottom: 30px;
+	color: #333;
+}

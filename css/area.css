@@ -1,0 +1,39 @@
+.allcity{
+	margin-top:20px;
+}
+.cities{
+	float: left;
+}
+.allcity h1{
+	float: left;
+	font-size: 20px;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+}
+.allcity .procity{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.allcity .procity h3{
+	margin-bottom: 10px;
+}
+.allcity .procity h3 a{
+	font-size: 16px;
+	color: #333;
+	cursor: pointer;
+}
+.allcity .procity h3 a:hover{
+	color: #22ac38;
+}
+.allcity .procity div a{
+	cursor: pointer;
+	font-size: 14px;
+    color: #666;
+    margin-right: 10px;
+}
+.allcity .procity div a:hover{
+	color: #22ac38;
+}

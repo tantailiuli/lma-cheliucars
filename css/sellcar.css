@@ -1,0 +1,94 @@
+.sell_banner{
+	margin: 0 auto;
+	width: 1442px;
+	height: 460px;
+	background-image: url(../images/sell_banner.png);
+}
+.sell_infor{
+	margin: 0 auto;
+	width: 980px;
+	height: 460px;
+}
+.sell_infor .banner_left{
+	float: left;
+	margin-top: 110px;
+	width: 480px;
+	height: 110px;
+}
+.sell_infor .banner_left h1{
+	font-weight: 100;
+	font-size: 48px;
+	color: #fff;
+}
+.sell_infor .banner_left h2{
+	padding: 20px 0;
+	font-weight: 100;
+	font-size: 20px;
+	color: #fff;
+}
+.sell_infor .banner_right{
+	float: right;
+	margin-top: 32px;
+	padding: 24px 35px 0 35px;
+	width: 310px;
+	height: 380px;
+	background: url(../images/erweimabig.png) no-repeat center;
+}
+.sell_cont{
+	padding: 60px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+.sell_cont div.sell_cont_title{
+	float: left;
+	padding: 0 50px;
+	width: 200px;
+}
+.sell_cont div h3{
+	font-size: 20px;
+	font-weight: 100;
+	color: #22ac38;
+	line-height: 30px;
+}
+.sell_cont div p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+}
+
+ul.w1200 li{
+	padding: 60px 0;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #e6e6e6;
+}
+ul.w1200 li img{
+	float: left;
+	margin-right: 90px;
+}
+ul.w1200 li h3{
+	margin: 150px 0 20px;
+	font-weight:100;
+	font-size: 36px;
+}
+ul.w1200 li p{
+	float: left;
+	font-size: 20px;
+	line-height: 32px;
+	color: #999;
+}
+.sell_want{
+	margin: 46px auto 75px;
+}
+.sell_want a{
+	margin: 0 auto;
+	display: block;
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    background: #FF5517;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}

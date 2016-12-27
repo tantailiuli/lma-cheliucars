@@ -1,0 +1,47 @@
+.brand_box h1{
+	float: left;
+	font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+    text-align: left;
+    font-weight: bold;
+}
+.brand{
+	width: 100%;
+	float: left;
+}
+.brand_box{
+	margin-bottom: 20px;
+}
+.brand .letter{
+	font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    float: left;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+}
+.brand .letter:hover{
+	background-color: #22ac38;
+	color: #fff;
+	border: 1px solid #22ac38;
+}
+.brand .brands{
+	float: left;
+    margin-left: 30px;
+    width: 1000px;
+}
+.brand .brands a{
+	font-size: 14px;
+	margin-right: 15px;
+    color: #666;
+    line-height: 30px;
+    cursor: pointer;
+}
+.brand .brands a:hover{
+	color: #22ac38;
+}
