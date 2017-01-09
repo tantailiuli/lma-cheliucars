@@ -1,5 +1,4 @@
 //城市筛选部分
-
 var cityareaDate = [
 	{
 		area : "华北",
@@ -30,7 +29,6 @@ var cityareaDate = [
 		city : ["陕西","宁夏","新疆"]
 	}
 ];
-
 function createCityarea(option){
 	var city = document.createElement('div'),
 		city_city = document.createElement('div'),
@@ -58,6 +56,15 @@ cityareaDate.forEach(function(item){
 })
 city_box.appendChild(fragment_5);
 
+//搜索框部分
+var search = document.getElementById('searchinput');
+search.onfocus = function(){
+	this.value = "";
+}
+search.onblur = function(){
+	this.value = "绝尘帮你寻它千百度";
+}
+
 //登录注册部分
 function dc(option){
 	return document.createElement(option);
@@ -71,6 +78,7 @@ var signbox = dc('div'),
 	close = dc('div'),
 	form = dc('form'),
 	body = document.body;
+var uporin = h3.innerText;
 signbox.className = "signbox";
 signfix.className = "signfix";
 close.className = "close";
@@ -90,7 +98,9 @@ form.innerHTML =["<p id=\"show\"></p>",
 					"<input id=\"btnCode\" type=\"button\" value=\"获取验证码\" />",
 				"</div>",
 				"<div class=\"line\">",
-					"<input id=\"btnSubmit\" type=\"submit\" value=\"注册\" />",
+					"<input id=\"btnSubmit\" type=\"submit\" value=\"",
+					uporin,
+					"\" />",
 				"</div>",
 				"</div>"].join("");
 

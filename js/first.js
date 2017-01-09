@@ -31,12 +31,12 @@ function createBanner(option){
 		images[_a].className = "";
 		images[a].className = "current";
 	};
-	var timer = setInterval(time,3000);
+	var timer = setInterval(time,2000);
 	element.onmouseover = function(){
 		clearInterval(timer);
 	}
 	element.onmouseout = function(){
-		timer = setInterval(time,3000);
+		timer = setInterval(time,2000);
 	}
 	function createButton(className){
 		var i = document.createElement("i");
@@ -104,45 +104,45 @@ function createBox(option){
 var exhibitionData = [
 	{
 		href : "#",
-		bigUrl : "./images/exhibition01.png",
+		bigUrl : "./images/exhibition01.jpg",
 		smallUrl : "./images/logo01.png",
-		title : "豪车不止BBA",
-		label : "德系三架马车，是时候退位让贤啦"
+		title : "阿斯顿·马丁",
+		label : "豪车？不止漂亮！"
 	},
 	{
 		href : "#",
-		bigUrl : "./images/exhibition02.png",
+		bigUrl : "./images/exhibition02.jpg",
 		smallUrl : "./images/logo02.png",
-		title : "百年大厂杰作",
-		label : "时间在流逝，品质永流传"
+		title : "凯迪拉克CTS",
+		label : "逆山行车，不退只进"
 	},
 	{
 		href : "#",
-		bigUrl : "./images/exhibition03.png",
+		bigUrl : "./images/exhibition03.jpg",
 		smallUrl : "./images/logo03.png",
-		title : "便宜才是王道",
-		label : "谁说便宜没好车？"
+		title : "雷文顿",
+		label : "一骑绝尘说的就是我，你只能看到飞尘"
 	},
 	{
 		href : "#",
-		bigUrl : "./images/exhibition04.png",
+		bigUrl : "./images/exhibition04.jpg",
 		smallUrl : "./images/logo04.png",
-		title : "驾校毕业生",
-		label : "那些年，我们练过的普桑和捷达"
+		title : "奥迪",
+		label : "让我们漫步在童话般的路上"
 	},
 	{
 		href : "#",
-		bigUrl : "./images/exhibition05.png",
+		bigUrl : "./images/exhibition05.jpg",
 		smallUrl : "./images/logo05.png",
-		title : "明星也抠门",
-		label : "明星都买二手车了你还等什么"
+		title : "法拉利旗舰级超级跑车",
+		label : "天涯任我去"
 	},
 	{
 		href : "#",
-		bigUrl : "./images/exhibition06.png",
+		bigUrl : "./images/exhibition06.jpg",
 		smallUrl : "./images/logo06.png",
-		title : "全能的大玩具",
-		label : "越野帮手，四驱利器"
+		title : "Porsche保时捷卡宴",
+		label : "家居旅行，必备车"
 	}
 ];
 var fragment = document.createDocumentFragment();

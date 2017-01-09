@@ -10,7 +10,7 @@ var wrapDate = [
 	},
 	{
 		title : "关于我们",
-		search : [{name:"大搜车理念",href:"ideal.html"},{name:"车牛",href:"#"},{name:"大风车",href:"#"},{name:"大搜车手机版",href:"#"}]
+		search : [{name:"绝尘车理念",href:"ideal.html"},{name:"车神",href:"#"},{name:"大飘移",href:"#"}]
 	},
 	{
 		title : "联系我们",
